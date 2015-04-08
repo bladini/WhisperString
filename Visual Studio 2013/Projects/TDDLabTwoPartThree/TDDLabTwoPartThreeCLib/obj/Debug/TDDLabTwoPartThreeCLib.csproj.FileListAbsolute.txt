@@ -1,0 +1,5 @@
+C:\Users\sing\documents\visual studio 2013\Projects\TDDLabTwoPartThree\TDDLabTwoPartThreeCLib\bin\Debug\TDDLabTwoPartThreeCLib.dll
+C:\Users\sing\documents\visual studio 2013\Projects\TDDLabTwoPartThree\TDDLabTwoPartThreeCLib\bin\Debug\TDDLabTwoPartThreeCLib.pdb
+C:\Users\sing\documents\visual studio 2013\Projects\TDDLabTwoPartThree\TDDLabTwoPartThreeCLib\obj\Debug\TDDLabTwoPartThreeCLib.csprojResolveAssemblyReference.cache
+C:\Users\sing\documents\visual studio 2013\Projects\TDDLabTwoPartThree\TDDLabTwoPartThreeCLib\obj\Debug\TDDLabTwoPartThreeCLib.dll
+C:\Users\sing\documents\visual studio 2013\Projects\TDDLabTwoPartThree\TDDLabTwoPartThreeCLib\obj\Debug\TDDLabTwoPartThreeCLib.pdb

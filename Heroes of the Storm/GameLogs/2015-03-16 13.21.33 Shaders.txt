@@ -1,0 +1,28 @@
+﻿====================================================================================================
+Heroes of the Storm (B34190)
+
+Executable              C:\Program Files (x86)\Heroes of the Storm\Versions\Base34190\HeroesOfTheStorm_x64.exe
+<Parameters>            -sso=1 -launch -uid heroes
+Parent Executable       C:\Program Files (x86)\Heroes of the Storm\Support64\HeroesSwitcher_x64.exe
+Grandparent Executable  C:\Program Files (x86)\Battle.net\Battle.net.5566\Battle.net.exe
+LocalTime               2015-03-16 13:21:33.626
+<ComputerUser>          sing
+<ComputerName>          SING-PC
+<Exe.Architecture>      x86_64
+<Version>               0.9.0.34190
+<DataBuild>             B34190
+<CodeBranch>            branches/Heroes.09
+<CodeRevision>          190334
+<Locale.Assets>         enUS
+<Locale.Data>           enUS
+<Locale.Install>        enUS
+<AccountCountry>        SWE
+====================================================================================================
+Compiling ErrorVertexShader
+Compiling ErrorPixelShader
+Compiling ErrorPixelShader
+Compiling LineVSShader
+Compiling LinePSShader
+Compiling QuadVSShader
+Compiling QuadPSShader
+Compiling TextPSShader

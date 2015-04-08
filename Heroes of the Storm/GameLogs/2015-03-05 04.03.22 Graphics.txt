@@ -1,0 +1,7 @@
+﻿GFX  04:03:22.674 VRAM Detected (Dedicated/Shared): DXGI (1994MB/2047MB), DDraw (32MB/1760MB)
+GFX  04:03:22.675 VRAM Override Variables (Dedicated/Shared): 0MB/0MB
+GFX  04:03:22.675 Initialized D3D9 GraphicsDevice (Driver Version: 9.18.13.3233, VRAM: 1994MB, SVMEM: 2047MB).
+GFX  04:03:23.124 Selected display mode 1280x720x0 with format D3DFMT_X8R8G8B8 and error delta 0
+GFX  04:03:25.040 Floating point render targets supported.
+GFX  04:03:25.059 Selected display mode 1280x720x0 with format D3DFMT_X8R8G8B8 and error delta 0
+GFX  04:05:03.996 Lost D3D9 device

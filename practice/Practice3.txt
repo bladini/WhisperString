@@ -1,0 +1,5 @@
+﻿Go to GIT HUB make a account
+
+Make a new repository
+
+connect with git hub and follow the instruction there

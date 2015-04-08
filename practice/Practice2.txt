@@ -1,0 +1,8 @@
+﻿Use PWD for seeing where you are right now
+
+Then use cd (and the map name you want to go to)
+
+Make a map by using "mkdir (name of the map)"
+
+Go to the map and make a couple of textfiles with text on it
+

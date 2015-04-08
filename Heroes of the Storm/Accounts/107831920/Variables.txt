@@ -1,0 +1,12 @@
+camerafollow=0
+colorblind=1
+mastervolume=0.011000
+music=0
+musicvolume=0.371000
+OptionRevisionAccount=3
+simplecommandcard=0
+soundambiencevolume=0.569106
+soundeffectsvolume=0.737127
+soundreadyvolume=0.764228
+sounduivolume=0.780488
+soundvoicesvolume=0.439000
