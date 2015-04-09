@@ -20,7 +20,11 @@ namespace WhisperMessage
                 throw new ArgumentException("Message is empty.");
             foreach (var letter in message)
             {
-                if (Char.IsNumber(letter))
+                if (letter == ' ')
+                {
+                    newMessage += letter.ToString();
+                }
+                else if (Char.IsNumber(letter))
                 {
                     inext = int.Parse(letter.ToString());
                     newMessage += letter.ToString();
@@ -33,7 +37,7 @@ namespace WhisperMessage
                     next= true;
                     newMessage += letter.ToString();
                 }
-                else if (next == true) {
+                else if (Char.IsLetter(letter) && next == true) {
                     next = false;
                     newMessage += nextLeter(letter,1).ToString();
                 }
@@ -44,12 +48,18 @@ namespace WhisperMessage
         char nextLeter(char letter, int i) {
             char nextChar;
             if (letter == 'z')
+            {
                 nextChar = 'a';
+                if (i > 1) return nextLeter((char)(((int)nextChar) + 1), i - 1);
+            }
             else if (letter == 'Z')
+            {
                 nextChar = 'A';
-
+                if (i > 1) return nextLeter((char)(((int)nextChar) + 1), i - 1);
+            }
+            else if (i > 1) return nextLeter((char)(((int)letter) + 1), i - 1);
             else
-                nextChar = (char)(((int)letter) + i);
+                nextChar = (char)(((int)letter) + 1);
             return nextChar;
         }
     }
