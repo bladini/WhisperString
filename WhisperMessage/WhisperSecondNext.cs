@@ -20,7 +20,7 @@ namespace WhisperMessage
                 throw new ArgumentException("Message is empty.");
             foreach (var letter in message)
             {
-                if (letter == ' ')
+                if (!Char.IsLetter(letter)&& !Char.IsNumber(letter))
                 {
                     newMessage += letter.ToString();
                 }
