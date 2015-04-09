@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessage", "WhisperMessage\WhisperMessage.csproj", "{33A83DCC-54C4-44A3-BF31-2937681B3926}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessage.Test", "WhisperMessage.Test\WhisperMessage.Test.csproj", "{589BB970-535F-4888-A814-5ED5D146AC90}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{33A83DCC-54C4-44A3-BF31-2937681B3926}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33A83DCC-54C4-44A3-BF31-2937681B3926}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33A83DCC-54C4-44A3-BF31-2937681B3926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589BB970-535F-4888-A814-5ED5D146AC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589BB970-535F-4888-A814-5ED5D146AC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589BB970-535F-4888-A814-5ED5D146AC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589BB970-535F-4888-A814-5ED5D146AC90}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
