@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessageConsoleApp", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNWhisperConsoleApp", "SNWhisperConsoleApp\SNWhisperConsoleApp.csproj", "{3C1FE398-0206-4D7E-8174-0439CABB5805}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoWhisperMessage", "YoWhisperMessage\YoWhisperMessage.csproj", "{7BEB4E31-6BCD-45B6-9361-41917C40404F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YoWhisperStringTests", "YoWhisperStringTests\YoWhisperStringTests.csproj", "{8BE6D55B-08C0-4D12-B2B4-37FAEA5961F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{3C1FE398-0206-4D7E-8174-0439CABB5805}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C1FE398-0206-4D7E-8174-0439CABB5805}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C1FE398-0206-4D7E-8174-0439CABB5805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BEB4E31-6BCD-45B6-9361-41917C40404F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BEB4E31-6BCD-45B6-9361-41917C40404F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BEB4E31-6BCD-45B6-9361-41917C40404F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BEB4E31-6BCD-45B6-9361-41917C40404F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE6D55B-08C0-4D12-B2B4-37FAEA5961F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE6D55B-08C0-4D12-B2B4-37FAEA5961F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE6D55B-08C0-4D12-B2B4-37FAEA5961F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE6D55B-08C0-4D12-B2B4-37FAEA5961F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
