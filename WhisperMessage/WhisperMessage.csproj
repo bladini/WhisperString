@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="WhisperMessage.cs" />
+    <Compile Include="WhisperString.cs" />
     <Compile Include="IWhisperString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

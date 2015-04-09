@@ -37,5 +37,26 @@ namespace WhisperMessage.Test
             Assert.AreEqual(expected, actual);
 
         }
+
+        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        public void ManipulateMessageEmptyStringThrowArgumentException()
+        {
+            //Arrange
+            string value = "";
+
+            //Act
+            string actual = _whisperString.ManipulateMessage(value);
+        }
+
+        [TestMethod, ExpectedException(typeof(ArgumentNullException))]
+        public void ManipulateMessageNullInputThrowArgumentNullException()
+        {
+            //Arrange
+            string value = null;
+
+            //Act
+            string actual = _whisperString.ManipulateMessage(value);
+        }
+
     }
 }
