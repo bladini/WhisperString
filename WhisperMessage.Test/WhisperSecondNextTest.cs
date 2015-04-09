@@ -44,6 +44,14 @@ namespace WhisperMessage.Test
             string actual = _whisperString.ManipulateMessage(value);
             Assert.AreEqual(expected, actual);
         }
+        [TestMethod]
+        public void SNManipulateMessageshiftsWithNumbers()
+        {
+            string value = "aaazv3a";
+            string expected = "abaav3d";
+            string actual = _whisperString.ManipulateMessage(value);
+            Assert.AreEqual(expected, actual);
+        }
         [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void SNManipulateMessageEmptyStringThrowArgumentException()
         {
