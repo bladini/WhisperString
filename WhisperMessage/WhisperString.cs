@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace WhisperMessage
@@ -14,14 +15,8 @@ namespace WhisperMessage
                 throw new ArgumentNullException("Message is null.");
             if (message.Trim().Equals(""))
                 throw new ArgumentException("Message is empty.");
-            char[] vowels = {'a', 'e', 'o', 'u', 'y','å', 'ä', 'ö',
-                            'A', 'E', 'O', 'U','Y','Å', 'Ä', 'Ö'};
-            foreach (var m in message)
-            {
-               if(vowels.Contains(m)) 
-                   message = message.Replace(m, 'i');
-            }
-            return message;
+            
+            return Regex.Replace(message, "[a,e,o,y,u,å,ä,ö,A,E,O,Y,U,Å,Ä,Ö]","i");
         }
     }
 }
