@@ -11,7 +11,7 @@ namespace WhisperMessage.Test
     [TestClass]
     public class WhisperSecondNextTest
     {
-        private IWhisperString _whisperString = new WhisperString();
+        private IWhisperString _whisperString = new WhisperSecondNext();
 
 
         #region Additional test attributes
@@ -37,7 +37,7 @@ namespace WhisperMessage.Test
         #endregion
 
         [TestMethod]
-        public void ManipulateMessageshiftsWithNoNumbers()
+        public void SNManipulateMessageshiftsWithNoNumbers()
         {
             string value = "aaaz";
             string expected = "abaa";
@@ -45,7 +45,7 @@ namespace WhisperMessage.Test
             Assert.AreEqual(expected, actual);
         }
         [TestMethod, ExpectedException(typeof(ArgumentException))]
-        public void ManipulateMessageEmptyStringThrowArgumentException()
+        public void SNManipulateMessageEmptyStringThrowArgumentException()
         {
             //Arrange
             string value = "";
@@ -55,7 +55,7 @@ namespace WhisperMessage.Test
         }
 
         [TestMethod, ExpectedException(typeof(ArgumentNullException))]
-        public void ManipulateMessageNullInputThrowArgumentNullException()
+        public void SNManipulateMessageNullInputThrowArgumentNullException()
         {
             //Arrange
             string value = null;
