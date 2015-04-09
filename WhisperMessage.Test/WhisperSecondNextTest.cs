@@ -40,7 +40,7 @@ namespace WhisperMessage.Test
         public void SNManipulateMessageshiftsWithNoNumbers()
         {
             string value = "aaaz";
-            string expected = "abaa";
+            string expected = "abaå";
             string actual = _whisperString.ManipulateMessage(value);
             Assert.AreEqual(expected, actual);
         }
@@ -48,7 +48,7 @@ namespace WhisperMessage.Test
         public void SNManipulateMessageshiftsWithNumbers()
         {
             string value = "aaazv3a";
-            string expected = "abaav3d";
+            string expected = "abaåv3d";
             string actual = _whisperString.ManipulateMessage(value);
             Assert.AreEqual(expected, actual);
         }
