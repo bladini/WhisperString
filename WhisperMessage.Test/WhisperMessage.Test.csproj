@@ -54,6 +54,7 @@
     <Compile Include="CaesarCipherTests.cs" />
     <Compile Include="WhisperSecondNextTest.cs" />
     <Compile Include="WhisperStringTests.cs" />
+    <Compile Include="YoWhisperMessageTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WhisperMessage\WhisperMessage.csproj">

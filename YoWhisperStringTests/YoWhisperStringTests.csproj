@@ -50,17 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="YoWhisperMessage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WhisperMessage\WhisperMessage.csproj">
       <Project>{33a83dcc-54c4-44a3-bf31-2937681b3926}</Project>
       <Name>WhisperMessage</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\YoWhisperMessage\YoWhisperMessage.csproj">
-      <Project>{7beb4e31-6bcd-45b6-9361-41917c40404f}</Project>
-      <Name>YoWhisperMessage</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

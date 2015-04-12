@@ -13,7 +13,7 @@ namespace WhisperMessageConsoleApp
         {
             try
             {
-                IWhisperString whisperStr = new WhisperString();
+                IWhisperString whisperStr = new YoWhisperString();
                 Console.WriteLine("Enter a message: ");
                 var message = Console.ReadLine();
                 var result = whisperStr.ManipulateMessage(message);
