@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperPipeline", "WhisperP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperPipeline.Tests", "WhisperPipeline.Tests\WhisperPipeline.Tests.csproj", "{6E000451-9B00-4DE4-830E-7FA9DC023B79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kokoWhisperMessageConsoleApp", "kokoWhisperMessageConsoleApp\kokoWhisperMessageConsoleApp.csproj", "{DF140BB2-1690-4F39-8B7C-E524C19ED1CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{6E000451-9B00-4DE4-830E-7FA9DC023B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E000451-9B00-4DE4-830E-7FA9DC023B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E000451-9B00-4DE4-830E-7FA9DC023B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF140BB2-1690-4F39-8B7C-E524C19ED1CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF140BB2-1690-4F39-8B7C-E524C19ED1CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF140BB2-1690-4F39-8B7C-E524C19ED1CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF140BB2-1690-4F39-8B7C-E524C19ED1CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

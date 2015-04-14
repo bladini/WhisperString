@@ -53,6 +53,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CaesarCipherTests.cs" />
     <Compile Include="ReversedWhisperStringTest.cs" />
+    <Compile Include="KoKoWhisperStringTest.cs" />
     <Compile Include="WhisperSecondNextTest.cs" />
     <Compile Include="WhisperStringTests.cs" />
     <Compile Include="YoWhisperMessageTest.cs" />
