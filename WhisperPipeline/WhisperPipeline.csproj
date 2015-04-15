@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="ErikPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />
+    <Compile Include="LeePipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
