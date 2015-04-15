@@ -9,7 +9,7 @@ namespace WhisperMessage.Test
     {
 
         private IWhisperString _whisperString = new WhisperCreateCalculation();
-
+        
         [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void CalcManipulateMessageEmptyStringThrowArgumentException()
         {

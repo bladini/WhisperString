@@ -9,7 +9,7 @@ namespace WhisperMessage
 {
     public class WhisperCreateCalculation : IWhisperString
     {
-
+        
         public string ManipulateMessage(string message)
         {
             if (message == null) throw new ArgumentNullException("Message is null");
