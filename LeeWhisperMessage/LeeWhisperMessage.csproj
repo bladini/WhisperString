@@ -48,10 +48,6 @@
       <Project>{33a83dcc-54c4-44a3-bf31-2937681b3926}</Project>
       <Name>WhisperMessage</Name>
     </ProjectReference>
-    <ProjectReference Include="..\WhisperPipeline\WhisperPipeline.csproj">
-      <Project>{fb4e2f5c-3f1f-4059-a3ff-c650cf7df927}</Project>
-      <Name>WhisperPipeline</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -52,7 +52,25 @@
   <ItemGroup>
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="YoWhisperPipelineTest.cs" />
+=======
+    <Compile Include="LeePipelineTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LeeWhisperMessage\LeeWhisperMessage.csproj">
+      <Project>{ad008162-fd98-44e5-acfa-f3d0c59eb511}</Project>
+      <Name>LeeWhisperMessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhisperMessage\WhisperMessage.csproj">
+      <Project>{33a83dcc-54c4-44a3-bf31-2937681b3926}</Project>
+      <Name>WhisperMessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhisperPipeline\WhisperPipeline.csproj">
+      <Project>{fb4e2f5c-3f1f-4059-a3ff-c650cf7df927}</Project>
+      <Name>WhisperPipeline</Name>
+    </ProjectReference>
+>>>>>>> 62d1fc2d3f009ff329de8686bb38deb70672fe80
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
