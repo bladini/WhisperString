@@ -8,7 +8,7 @@ namespace WhisperMessage.Test
     public class LeeTest
     {
 
-        private IWhisperPipeline _whisperString = new WhisperCreateCalculation();
+        private IWhisperString _whisperString = new WhisperCreateCalculation();
 
         [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void CalcManipulateMessageEmptyStringThrowArgumentException()
@@ -17,7 +17,7 @@ namespace WhisperMessage.Test
             string value = "";
 
             //Act
-            string actual = _whisperString.Whisper(value);
+            string actual = _whisperString.ManipulateMessage(value);
         }
 
         [TestMethod, ExpectedException(typeof(ArgumentNullException))]
@@ -27,7 +27,7 @@ namespace WhisperMessage.Test
             string value = null;
 
             //Act
-            string actual = _whisperString.Whisper(value);
+            string actual = _whisperString.ManipulateMessage(value);
         }
 
         [TestMethod]
@@ -39,7 +39,7 @@ namespace WhisperMessage.Test
             string expected = "Why + hello - there * how / are + you = today?";
 
             //Act
-            string actual = _whisperString.Whisper(value);
+            string actual = _whisperString.ManipulateMessage(value);
 
             //Assert
             Assert.AreEqual(expected, actual);
@@ -55,7 +55,7 @@ namespace WhisperMessage.Test
             string expected = "Hello";
 
             //Act
-            string actual = _whisperString.Whisper(value);
+            string actual = _whisperString.ManipulateMessage(value);
 
             //Assert
             Assert.AreEqual(expected, actual);

@@ -7,10 +7,10 @@ using WhisperMessage.Pipeline;
 
 namespace WhisperMessage
 {
-    public class WhisperCreateCalculation : IWhisperPipeline
+    public class WhisperCreateCalculation : IWhisperString
     {
 
-        public string Whisper(string message)
+        public string ManipulateMessage(string message)
         {
             if (message == null) throw new ArgumentNullException("Message is null");
             if (message.Trim().Equals("")) throw new ArgumentException("Message is empty");
