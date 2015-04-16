@@ -14,15 +14,12 @@ namespace WhisperPipeline
 
         private IWhisperString _whisperSecondNext = new WhisperSecondNext();
 
-        private IWhisperString _whisperStringKoko = new WhisperStringKoko();
 
         public string Whisper(string message)
         {
             message = _reverseWhisperMessage.ManipulateMessage(message);
 
             message = _whisperSecondNext.ManipulateMessage(message);
-
-            message = _whisperStringKoko.ManipulateMessage(message);
 
             return message;
         }
