@@ -15,8 +15,8 @@ namespace WhisperMessage.Test
         public void ManipulateMessageWithVowels()
         {
             //Arrange
-            string value = "this is ur cake message";
-            string expected = "this is ur kokoakokoe message";
+            string value = "this is ur cake messagee";
+            string expected = "this is ur kokoakokoe messagee";
 
             //Act
             string actual = _whisperStringKoko.ManipulateMessage(value);
