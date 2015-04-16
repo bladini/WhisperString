@@ -53,9 +53,7 @@
     <Compile Include="ErikUnitTest.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-<<<<<<< HEAD
     <Compile Include="YoWhisperPipelineTest.cs" />
-=======
     <Compile Include="LeePipelineTest.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -71,7 +69,6 @@
       <Project>{fb4e2f5c-3f1f-4059-a3ff-c650cf7df927}</Project>
       <Name>WhisperPipeline</Name>
     </ProjectReference>
->>>>>>> 62d1fc2d3f009ff329de8686bb38deb70672fe80
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WhisperPipeline\WhisperPipeline.csproj">
