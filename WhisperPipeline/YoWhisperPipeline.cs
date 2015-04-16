@@ -11,19 +11,14 @@ namespace WhisperPipeline
     public class YoWhisperPipeline : IWhisperPipeline
     {
         private IWhisperString _reverseWhisperMessage = new ReverseWhisperMessage();
-
         private IWhisperString _whisperSecondNext = new WhisperSecondNext();
-
-
         public string Whisper(string message)
         {
             message = _reverseWhisperMessage.ManipulateMessage(message);
 
             message = _whisperSecondNext.ManipulateMessage(message);
-
+            
             return message;
         }
     }
-
-
 }
