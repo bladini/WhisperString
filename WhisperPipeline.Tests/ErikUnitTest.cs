@@ -15,6 +15,7 @@ namespace WhisperMessage.Pipeline
             string value = "Hej och hå";
             string expected = "Jeh  oy  hokoko  oy  åh";
 
+
             //Act
             string actual = _erikPipeline.Whisper(value);
 
