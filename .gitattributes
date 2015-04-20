@@ -1,4 +1,5 @@
-﻿## Git attributes ## 
+﻿
+# Git attributes 
 
 *.csproj -text merge=union
 *.sln -text merge=union
