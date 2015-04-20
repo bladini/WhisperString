@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Author: Erik
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WhisperString.Test
@@ -8,6 +9,7 @@ namespace WhisperString.Test
     {
         private IWhisperString _swapWhisperString = new SwapWhisperString();
         
+        //TestMethod using ExpectedException way 
         /*
         [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void SwapManipulateMessageEmptyStringThrowArgumentException()
@@ -18,7 +20,8 @@ namespace WhisperString.Test
             //Act
             string actual = _swapWhisperString.ManipulateMessage(value);
         }*/
-        
+
+        //TestMethod using try/catch way 
         [TestMethod]
         public void SwapManipulateMessageEmptyStringThrowArgumentException()
         {
@@ -43,6 +46,7 @@ namespace WhisperString.Test
             }
         }
 
+        //TestMethod using ExpectedException way 
         /*
         [TestMethod, ExpectedException(typeof(ArgumentNullException))]
         public void SwapManipulateMessageNullThrowArgumentNullException()
@@ -55,6 +59,7 @@ namespace WhisperString.Test
         }
         */
 
+        //TestMethod using try/catch way 
         [TestMethod]
         public void SwapManipulateMessageNullThrowArgumentNullException()
         {
