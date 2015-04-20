@@ -7,6 +7,8 @@ namespace WhisperString.Test
     public class SwapWhisperStringTests
     {
         private IWhisperString _swapWhisperString = new SwapWhisperString();
+        
+        /*
         [TestMethod, ExpectedException(typeof(ArgumentException))]
         public void SwapManipulateMessageEmptyStringThrowArgumentException()
         {
@@ -15,7 +17,33 @@ namespace WhisperString.Test
 
             //Act
             string actual = _swapWhisperString.ManipulateMessage(value);
+        }*/
+        
+        [TestMethod]
+        public void SwapManipulateMessageEmptyStringThrowArgumentException()
+        {
+            //Arrange
+            string value = "";
+
+            try
+            {
+                string actual = _swapWhisperString.ManipulateMessage(value);
+
+                //No exception at all thrown. Fail!
+                Assert.Fail();
+            } 
+            catch(ArgumentException)
+            {
+                //ArgumentException thrown. This is good!
+            }
+            catch(Exception)
+            {
+                //Wrong exception thrown. Fail!
+                Assert.Fail();
+            }
         }
+
+        /*
         [TestMethod, ExpectedException(typeof(ArgumentNullException))]
         public void SwapManipulateMessageNullThrowArgumentNullException()
         {
@@ -25,6 +53,35 @@ namespace WhisperString.Test
             //Act
             string actual = _swapWhisperString.ManipulateMessage(value);
         }
+        */
+
+        [TestMethod]
+        public void SwapManipulateMessageNullThrowArgumentNullException()
+        {
+            //Arrange
+            string value = null;
+
+            try
+            {
+                string actual = _swapWhisperString.ManipulateMessage(value);
+
+                //No exception at all thrown. Fail!
+                Assert.Fail();
+            }
+            catch (ArgumentNullException)
+            {
+                //ArgumentNullException thrown. This is good!
+                
+            }
+            catch (Exception)
+            {
+                //Wrong exception thrown. Fail!
+                Assert.Fail();
+            }
+
+        }
+
+
         [TestMethod]
         public void SwapManipulateMessage()
         {
