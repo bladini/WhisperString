@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author Lisas Module
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WhisperString;
 using WhisperString.Pipeline;
