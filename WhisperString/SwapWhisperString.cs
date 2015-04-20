@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace WhisperString
 {
-    public class ErikWhisperString : IWhisperString
+    public class SwapWhisperString : IWhisperString
     {
         public string ManipulateMessage(string message)
         {

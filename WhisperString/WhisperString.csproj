@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="RhymeWhisperString.cs" />
     <Compile Include="WhisperCensor.cs" />
-    <Compile Include="ErikWhisperString.cs" />
+    <Compile Include="SwapWhisperString.cs" />
     <Compile Include="ReverseWhisperMessage.cs" />
     <Compile Include="WhisperSecondNext.cs" />
     <Compile Include="WhisperString.cs" />
