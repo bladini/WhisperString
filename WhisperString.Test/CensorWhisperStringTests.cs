@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Author Sing
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WhisperString.Test
