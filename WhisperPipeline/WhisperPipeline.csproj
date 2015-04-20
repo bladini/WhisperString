@@ -45,7 +45,7 @@
     <Compile Include="LeePipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseWhisperPipeline.cs" />
-    <Compile Include="SingPipeline.cs" />
+    <Compile Include="CensorPipeline.cs" />
     <Compile Include="YoWhisperPipeline.cs" />
   </ItemGroup>
   <ItemGroup>

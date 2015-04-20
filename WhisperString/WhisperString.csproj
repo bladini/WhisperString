@@ -40,7 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="RhymeWhisperString.cs" />
-    <Compile Include="WhisperCensor.cs" />
+    <Compile Include="CensorWhisperString.cs" />
     <Compile Include="ReverseWhisperString.cs" />
     <Compile Include="SwapWhisperString.cs" />
     <Compile Include="WhisperSecondNext.cs" />
