@@ -17,7 +17,7 @@ namespace WhisperPipeline.Tests
 
             //Arrange
             string value = "hej på dig fuck face!";
-            string expected = "jfh + yo - äp * yo / hie + yo - lkokovf * yo = !fkokob";
+            string expected = "jfh yo äp yo hie yo lkokovf yo !fkokob";
 
             //Act
             string actual = _leePipeline.Whisper(value);
