@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author Lisas module
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WhisperString.Test
