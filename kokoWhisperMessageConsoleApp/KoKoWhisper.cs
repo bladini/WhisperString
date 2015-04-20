@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using WhisperString;
 
-namespace WhisperStringConsoleApp
+namespace KokoWhisperMessageConsoleApp
 {
     class Program
     {
@@ -13,7 +13,7 @@ namespace WhisperStringConsoleApp
         {
             try
             {
-                IWhisperString whisperStr = new YoWhisperString();
+                IWhisperString whisperStr = new WhisperStringKoko();
                 Console.WriteLine("Enter a message: ");
                 var message = Console.ReadLine();
                 var result = whisperStr.ManipulateMessage(message);
@@ -28,3 +28,4 @@ namespace WhisperStringConsoleApp
         }
     }
 }
+

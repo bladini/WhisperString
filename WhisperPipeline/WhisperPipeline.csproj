@@ -39,13 +39,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ErikPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />
+    <Compile Include="JohnPipeline.cs" />
+    <Compile Include="LeePipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SingPipeline.cs" />
+    <Compile Include="YoWhisperPipeline.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WhisperMessage\WhisperMessage.csproj">
+    <ProjectReference Include="..\LeeWhisperMessage\LeeWhisperMessage.csproj">
+      <Project>{ad008162-fd98-44e5-acfa-f3d0c59eb511}</Project>
+      <Name>LeeWhisperMessage</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WhisperString\WhisperString.csproj">
       <Project>{33a83dcc-54c4-44a3-bf31-2937681b3926}</Project>
-      <Name>WhisperMessage</Name>
+      <Name>WhisperString</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

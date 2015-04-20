@@ -1,13 +1,10 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WhisperString.Pipeline
+namespace WhisperPipeline.Tests
 {
-
-    // A dummy class to copy for your own pipeline tests.
-
     [TestClass]
-    public class UnitTest1
+    public class YoWhisperPipelineTest
     {
         [TestMethod]
         public void TestMethod1()
