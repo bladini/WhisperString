@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WhisperPipeline;
+using WhisperString.Pipeline;
 
 namespace WhisperPipeline.Test
 {
     [TestClass]
-    public class ErikPipelineTests
+    public class SwapPipelineTests
     {
         private IWhisperPipeline _swapPipeline = new SwapPipeline();
 
@@ -18,7 +18,7 @@ namespace WhisperPipeline.Test
 
 
             //Act
-            string actual = _erikPipeline.Whisper(value);
+            string actual = _swapPipeline.Whisper(value);
 
             //Assert
             Assert.AreEqual(expected, actual);
