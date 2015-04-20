@@ -1,15 +1,17 @@
-﻿using System;
+﻿// Author: Erik
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WhisperString.Pipeline;
 
-namespace WhisperString.Pipeline
+namespace WhisperPipeline.Test
 {
     [TestClass]
-    public class ErikUnitTest
+    public class SwapPipelineTests
     {
-        private IWhisperPipeline _erikPipeline = new ErikPipeline();
+        private IWhisperPipeline _swapPipeline = new SwapPipeline();
 
         [TestMethod]
-        public void ErikPipelineTest()
+        public void SwapPipelineTest()
         {
             //Arrange
             string value = "Hej och hå";
@@ -17,7 +19,7 @@ namespace WhisperString.Pipeline
 
 
             //Act
-            string actual = _erikPipeline.Whisper(value);
+            string actual = _swapPipeline.Whisper(value);
 
             //Assert
             Assert.AreEqual(expected, actual);
