@@ -10,7 +10,7 @@ namespace WhisperPipeline
 {
     public class YoWhisperPipeline : IWhisperPipeline
     {
-        private IWhisperString _reverseWhisperMessage = new ReverseWhisperMessage();
+        private IWhisperString _reverseWhisperMessage = new ReverseWhisperString();
         private IWhisperString _whisperSecondNext = new WhisperSecondNext();
         public string Whisper(string message)
         {
