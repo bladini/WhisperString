@@ -12,7 +12,6 @@ namespace WhisperString.Pipeline
         private IWhisperString yo = new YoWhisperString();
         private IWhisperString koko = new WhisperStringKoko();
         private IWhisperString swap = new SwapWhisperString();
-        private IWhisperString lee = new WhisperCreateCalculation();
         private IWhisperString reverse = new ReverseWhisperString();
 
         public string Whisper(string message)
@@ -20,7 +19,6 @@ namespace WhisperString.Pipeline
             string str = yo.ManipulateMessage(message);
             str = koko.ManipulateMessage(str);
             str = swap.ManipulateMessage(str);
-            str = lee.ManipulateMessage(str);
             str = reverse.ManipulateMessage(str);
 
             return str;

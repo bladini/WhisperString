@@ -11,7 +11,6 @@ namespace WhisperPipeline
     public class LeePipeline : IWhisperPipeline
     {
 
-        private IWhisperString _whisperCalc = new WhisperCreateCalculation();
         private IWhisperString _whisperReverse = new ReverseWhisperString();
         private IWhisperString _whisperSecondNext = new WhisperSecondNext();
         private IWhisperString _whisperKoko = new WhisperStringKoko();
@@ -24,7 +23,6 @@ namespace WhisperPipeline
             message = _whisperSecondNext.ManipulateMessage(message);
             message = _whisperKoko.ManipulateMessage(message);
             message = _whisperYo.ManipulateMessage(message);
-            message = _whisperCalc.ManipulateMessage(message);
 
             return message;
 

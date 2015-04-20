@@ -55,10 +55,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LeeWhisperMessage\LeeWhisperMessage.csproj">
-      <Project>{ad008162-fd98-44e5-acfa-f3d0c59eb511}</Project>
-      <Name>LeeWhisperMessage</Name>
-    </ProjectReference>
     <ProjectReference Include="..\WhisperPipeline\WhisperPipeline.csproj">
       <Project>{fb4e2f5c-3f1f-4059-a3ff-c650cf7df927}</Project>
       <Name>WhisperPipeline</Name>
