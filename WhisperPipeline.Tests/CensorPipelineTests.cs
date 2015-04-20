@@ -4,7 +4,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace WhisperPipeline.Tests
 {
     [TestClass]
-    public class SingPipelineTest
+    public class CensorPipelineTests
     {
         [TestMethod]
         public void TestMethod1()

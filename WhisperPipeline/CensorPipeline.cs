@@ -8,7 +8,7 @@ using WhisperString.Pipeline;
 
 namespace WhisperPipeline
 {
-    public class SingPipeline : IWhisperPipeline
+    public class CensorPipeline : IWhisperPipeline
     {
 
         private IWhisperString _whisperKoko = new WhisperStringKoko();
