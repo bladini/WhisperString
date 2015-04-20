@@ -1,7 +1,0 @@
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\bin\Debug\Lab1Test.dll
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\bin\Debug\Lab1Test.pdb
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\bin\Debug\Lab1.dll
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\bin\Debug\Lab1.pdb
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\obj\Debug\Lab1Test.csprojResolveAssemblyReference.cache
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\obj\Debug\Lab1Test.dll
-c:\Users\sing\documents\visual studio 2013\Projects\Lab1\Lab1Test\obj\Debug\Lab1Test.pdb

@@ -1,7 +1,0 @@
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\obj\Debug\TDDLabTwoPart2Test.csprojResolveAssemblyReference.cache
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\bin\Debug\TDDLabTwoPart2Test.dll
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\bin\Debug\TDDLabTwoPart2Test.pdb
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\obj\Debug\TDDLabTwoPart2Test.dll
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\obj\Debug\TDDLabTwoPart2Test.pdb
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\bin\Debug\TDDLabTwoPart2CLib.dll
-C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPart2Test\bin\Debug\TDDLabTwoPart2CLib.pdb

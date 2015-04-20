@@ -1,8 +1,0 @@
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\bin\Debug\Program.exe.config
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\bin\Debug\Program.exe
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\bin\Debug\Program.pdb
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\bin\Debug\TDDPalindromeCLib.dll
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\bin\Debug\TDDPalindromeCLib.pdb
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\obj\Debug\TDDPalindromeConsoleApp.csprojResolveAssemblyReference.cache
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\obj\Debug\Program.exe
-c:\users\sing\documents\visual studio 2013\Projects\TDDPalindromeT\Program\obj\Debug\Program.pdb

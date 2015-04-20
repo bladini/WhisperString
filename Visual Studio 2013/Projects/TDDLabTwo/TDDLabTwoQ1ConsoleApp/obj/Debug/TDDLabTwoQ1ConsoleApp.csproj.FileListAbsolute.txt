@@ -1,8 +1,0 @@
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\bin\Debug\TDDLabTwoQ1ConsoleApp.exe.config
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\bin\Debug\TDDLabTwoQ1ConsoleApp.exe
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\bin\Debug\TDDLabTwoQ1ConsoleApp.pdb
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\obj\Debug\TDDLabTwoQ1ConsoleApp.csprojResolveAssemblyReference.cache
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\obj\Debug\TDDLabTwoQ1ConsoleApp.exe
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\obj\Debug\TDDLabTwoQ1ConsoleApp.pdb
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\bin\Debug\TDDLabTwoClib.dll
-c:\users\sing\documents\visual studio 2013\Projects\TDDLabTwo\TDDLabTwoQ1ConsoleApp\bin\Debug\TDDLabTwoClib.pdb
