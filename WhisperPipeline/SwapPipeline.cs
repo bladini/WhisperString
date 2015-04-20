@@ -13,7 +13,7 @@ namespace WhisperString.Pipeline
         private IWhisperString koko = new WhisperStringKoko();
         private IWhisperString swap = new SwapWhisperString();
         private IWhisperString lee = new WhisperCreateCalculation();
-        private IWhisperString reverse = new ReverseWhisperMessage();
+        private IWhisperString reverse = new ReverseWhisperString();
 
         public string Whisper(string message)
         {

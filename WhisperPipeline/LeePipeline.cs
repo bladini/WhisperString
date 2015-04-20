@@ -12,7 +12,7 @@ namespace WhisperPipeline
     {
 
         private IWhisperString _whisperCalc = new WhisperCreateCalculation();
-        private IWhisperString _whisperReverse = new ReverseWhisperMessage();
+        private IWhisperString _whisperReverse = new ReverseWhisperString();
         private IWhisperString _whisperSecondNext = new WhisperSecondNext();
         private IWhisperString _whisperKoko = new WhisperStringKoko();
         private IWhisperString _whisperYo = new YoWhisperString();

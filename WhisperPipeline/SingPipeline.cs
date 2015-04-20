@@ -13,7 +13,7 @@ namespace WhisperPipeline
 
         private IWhisperString _whisperKoko = new WhisperStringKoko();
         private IWhisperString _yoWhisper = new YoWhisperString();
-        private IWhisperString _whisperReverse = new ReverseWhisperMessage();
+        private IWhisperString _whisperReverse = new ReverseWhisperString();
         
 
         public string Whisper(string message)

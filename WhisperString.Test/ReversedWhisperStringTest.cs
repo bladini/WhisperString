@@ -6,7 +6,7 @@ namespace WhisperString.Test
     [TestClass]
     public class ReversedWhisperStringTest
     {
-        IWhisperString _reverseMessage = new ReverseWhisperMessage();
+        IWhisperString _reverseMessage = new ReverseWhisperString();
         [TestMethod]
         public void ReverseWhisperMessageTest()
         {
