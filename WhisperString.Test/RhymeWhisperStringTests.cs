@@ -2,7 +2,7 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
-namespace WhisperMessage.Test
+namespace WhisperString.Test
 {
     [TestClass]
     public class RhymeWhisperStringTests

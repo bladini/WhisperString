@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WhisperMessage.Test
+namespace WhisperString.Test
 {
     [TestClass]
     public class WhisperStringTests

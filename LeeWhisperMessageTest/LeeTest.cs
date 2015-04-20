@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WhisperMessage.Pipeline;
+using WhisperString.Pipeline;
 
-namespace WhisperMessage.Test
+namespace WhisperString.Test
 {
     [TestClass]
     public class LeeTest

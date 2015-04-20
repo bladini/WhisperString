@@ -3,7 +3,7 @@ using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WhisperMessage.Test
+namespace WhisperString.Test
 {
     /// <summary>
     /// Summary description for WhisperSecondNextTest

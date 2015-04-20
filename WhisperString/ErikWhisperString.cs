@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace WhisperMessage
+namespace WhisperString
 {
     public class ErikWhisperString : IWhisperString
     {

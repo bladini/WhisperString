@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 
 // Use this interface to implement your new pipeline integration module.
-namespace WhisperMessage.Pipeline
+namespace WhisperString.Pipeline
 {
     public interface IWhisperPipeline
     {

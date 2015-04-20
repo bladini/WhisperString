@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WhisperMessage;
-using WhisperMessage.Pipeline;
+using WhisperString;
+using WhisperString.Pipeline;
 
 namespace WhisperPipeline.Tests
 {

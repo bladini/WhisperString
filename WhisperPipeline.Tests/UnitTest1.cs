@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WhisperMessage.Pipeline
+namespace WhisperString.Pipeline
 {
 
     // A dummy class to copy for your own pipeline tests.

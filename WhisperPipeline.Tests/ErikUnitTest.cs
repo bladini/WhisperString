@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace WhisperMessage.Pipeline
+namespace WhisperString.Pipeline
 {
     [TestClass]
     public class ErikUnitTest

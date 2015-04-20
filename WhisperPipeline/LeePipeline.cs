@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WhisperMessage;
-using WhisperMessage.Pipeline;
+using WhisperString;
+using WhisperString.Pipeline;
 
 namespace WhisperPipeline
 {

@@ -44,7 +44,7 @@
     <Compile Include="WhisperCreateCalculation.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WhisperMessage\WhisperString.csproj">
+    <ProjectReference Include="..\WhisperString\WhisperString.csproj">
       <Project>{33a83dcc-54c4-44a3-bf31-2937681b3926}</Project>
       <Name>WhisperString</Name>
     </ProjectReference>

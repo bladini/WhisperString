@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-using WhisperMessage;
+using WhisperString;
 
-namespace WhisperMessage.Test
+namespace WhisperString.Test
 {
     [TestClass]
     public class WhisperStringKokoTest
