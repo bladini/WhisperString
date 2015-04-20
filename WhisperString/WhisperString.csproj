@@ -41,14 +41,14 @@
   <ItemGroup>
     <Compile Include="RhymeWhisperString.cs" />
     <Compile Include="WhisperCensor.cs" />
-    <Compile Include="ErikWhisperString.cs" />
     <Compile Include="ReverseWhisperString.cs" />
+    <Compile Include="SwapWhisperString.cs" />
     <Compile Include="WhisperSecondNext.cs" />
     <Compile Include="WhisperString.cs" />
     <Compile Include="IWhisperString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="WhisperStringKoKo.cs" />
-    <Compile Include="YoWhisperMessage.cs" />
+    <Compile Include="YoWhisperString.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

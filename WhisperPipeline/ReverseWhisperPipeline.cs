@@ -11,7 +11,7 @@ namespace WhisperPipeline
     public class ReverseWhisperPipeline : IWhisperPipeline
     {
         private IWhisperString john = new RhymeWhisperString();
-        private IWhisperString erik = new ErikWhisperString();
+        private IWhisperString erik = new SwapWhisperString();
         private IWhisperString censor = new WhisperCensor();
         private IWhisperString reverse = new ReverseWhisperString();
 

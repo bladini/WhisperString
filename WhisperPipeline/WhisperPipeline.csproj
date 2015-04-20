@@ -39,7 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ErikPipeline.cs" />
+    <Compile Include="SwapPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />
     <Compile Include="JohnPipeline.cs" />
     <Compile Include="LeePipeline.cs" />

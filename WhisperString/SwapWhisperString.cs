@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Author: Erik
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WhisperString
 {
-    public class ErikWhisperString : IWhisperString
+    public class SwapWhisperString : IWhisperString
     {
         public string ManipulateMessage(string message)
         {
