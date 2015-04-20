@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace WhisperString.Pipeline
 {
-    public class ErikPipeline : IWhisperPipeline
+    public class SwapPipeline : IWhisperPipeline
     {
         private IWhisperString yo = new YoWhisperString();
         private IWhisperString koko = new WhisperStringKoko();
-        private IWhisperString erik = new ErikWhisperString();
+        private IWhisperString swap = new SwapWhisperString();
         private IWhisperString lee = new WhisperCreateCalculation();
         private IWhisperString reverse = new ReverseWhisperMessage();
 
@@ -20,7 +20,7 @@ namespace WhisperString.Pipeline
         {
             string str = yo.ManipulateMessage(message);
             str = koko.ManipulateMessage(str);
-            str = erik.ManipulateMessage(str);
+            str = swap.ManipulateMessage(str);
             str = lee.ManipulateMessage(str);
             str = reverse.ManipulateMessage(str);
 

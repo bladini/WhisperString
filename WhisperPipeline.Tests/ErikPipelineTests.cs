@@ -1,15 +1,16 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using WhisperPipeline;
 
-namespace WhisperString.Pipeline
+namespace WhisperPipeline.Test
 {
     [TestClass]
-    public class ErikUnitTest
+    public class ErikPipelineTests
     {
-        private IWhisperPipeline _erikPipeline = new ErikPipeline();
+        private IWhisperPipeline _swapPipeline = new SwapPipeline();
 
         [TestMethod]
-        public void ErikPipelineTest()
+        public void SwapPipelineTest()
         {
             //Arrange
             string value = "Hej och hå";
