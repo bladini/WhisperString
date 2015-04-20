@@ -1,4 +1,4 @@
-﻿// Author: Erik
+﻿// Author: Erik Morén
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
