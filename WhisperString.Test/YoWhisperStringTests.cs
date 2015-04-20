@@ -46,7 +46,6 @@ namespace WhisperString.Test
             catch (ArgumentNullException)
             {
                 
-                throw;
             } 
             catch
             {
