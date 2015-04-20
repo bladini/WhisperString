@@ -50,13 +50,13 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CensorWhisperStringTests.cs" />
     <Compile Include="SwapWhisperStringTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="CaesarCipherTests.cs" />
     <Compile Include="ReversedWhisperStringTest.cs" />
     <Compile Include="KoKoWhisperStringTest.cs" />
     <Compile Include="RhymeWhisperStringTests.cs" />
-    <Compile Include="CensorWhisperTests.cs" />
     <Compile Include="WhisperSecondNextTest.cs" />
     <Compile Include="WhisperStringTests.cs" />
     <Compile Include="YoWhisperStringTests.cs" />
