@@ -10,7 +10,7 @@ namespace WhisperPipeline
 {
     class JohnPipeline : IWhisperPipeline
     {
-        private IWhisperString rhyme = new RhymeWhisper();
+        private IWhisperString rhyme = new RhymeWhisperString();
 
         public string Whisper(string message)
         {

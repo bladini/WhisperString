@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessage", "WhisperMessage\WhisperMessage.csproj", "{33A83DCC-54C4-44A3-BF31-2937681B3926}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperString", "WhisperMessage\WhisperString.csproj", "{33A83DCC-54C4-44A3-BF31-2937681B3926}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessage.Test", "WhisperMessage.Test\WhisperMessage.Test.csproj", "{589BB970-535F-4888-A814-5ED5D146AC90}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperString.Test", "WhisperMessage.Test\WhisperString.Test.csproj", "{589BB970-535F-4888-A814-5ED5D146AC90}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhisperMessageConsoleApp", "WhisperMessageConsoleApp\WhisperMessageConsoleApp.csproj", "{16624F73-5732-4CE9-BFF5-2649F828A6C6}"
 EndProject
