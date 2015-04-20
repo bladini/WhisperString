@@ -19,9 +19,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeWhisperMessage", "LeeWhi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeeWhisperMessageTest", "LeeWhisperMessageTest\LeeWhisperMessageTest.csproj", "{9CA4FEA2-A9E3-4C7E-8EE7-353E22D05E00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeWhisperMessage", "..\..\WhisperMessage\RhymeWhisperMessage\RhymeWhisperMessage.csproj", "{B7F9B422-855B-42B2-A541-10CF90A0E925}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeWhisperMessage", "RhymeWhisperMessage\RhymeWhisperMessage.csproj", "{B7F9B422-855B-42B2-A541-10CF90A0E925}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeWhisperMessage.Test", "..\..\WhisperMessage\RhymeWhisperMessage.Test\RhymeWhisperMessage.Test.csproj", "{4ADB8D10-EBD1-48D3-8048-41D7D9912185}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RhymeWhisperMessage.Test", "RhymeWhisperMessage.Test\RhymeWhisperMessage.Test.csproj", "{4ADB8D10-EBD1-48D3-8048-41D7D9912185}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
