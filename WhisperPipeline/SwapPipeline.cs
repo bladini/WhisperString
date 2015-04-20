@@ -15,8 +15,6 @@ namespace WhisperString.Pipeline
         private IWhisperString lee = new WhisperCreateCalculation();
         private IWhisperString reverse = new ReverseWhisperMessage();
 
-
-
         public string Whisper(string message)
         {
             string str = yo.ManipulateMessage(message);
