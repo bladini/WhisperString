@@ -59,7 +59,7 @@
     <Compile Include="WhisperCensorTest.cs" />
     <Compile Include="WhisperSecondNextTest.cs" />
     <Compile Include="WhisperStringTests.cs" />
-    <Compile Include="YoWhisperStringTest.cs" />
+    <Compile Include="YoWhisperStringTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WhisperString\WhisperString.csproj">
