@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Author: John Fristedt
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
 
