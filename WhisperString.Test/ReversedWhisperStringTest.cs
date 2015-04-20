@@ -1,4 +1,6 @@
-﻿using System;
+﻿//Author Lisas module
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WhisperString.Test
@@ -21,18 +23,54 @@ namespace WhisperString.Test
             Assert.AreEqual(expected, actual);
         }
 
-        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        [TestMethod]
+        //[ExpectedException(typeof(ArgumentException))]
         public void ReversedMessageArgumentException()
         {
             string value = "";
-            string actual = _reverseMessage.ManipulateMessage(value);
+
+            try
+            {
+                string actual = _reverseMessage.ManipulateMessage(value);
+
+                //No exception at all thrown. Fail!
+                Assert.Fail();
+            }
+            catch (ArgumentException)
+            {
+                //ArgumentException thrown. This is good!
+            }
+            catch (Exception)
+            {
+                //Wrong exception thrown. Fail!
+                Assert.Fail();
+            }
         }
 
-        [TestMethod, ExpectedException(typeof(ArgumentNullException))]
+        [TestMethod] 
+        //[ExpectedException(typeof(ArgumentNullException))]
         public void ReversedMessageArgumentNullException()
         {
             string value = null;
-            string actual = _reverseMessage.ManipulateMessage(value);
+
+            try
+            {
+                string actual = _reverseMessage.ManipulateMessage(value);
+
+                //No exception at all thrown. Fail!
+                Assert.Fail();
+            }
+            catch (ArgumentNullException)
+            {
+                //ArgumentException thrown. This is good!
+            }
+            catch (Exception)
+            {
+                //Wrong exception thrown. Fail!
+                Assert.Fail();
+            }
+
+
         }
     }
 }

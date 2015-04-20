@@ -1,4 +1,4 @@
-﻿//Lisas module
+﻿//Author Lisas module
 
 using System;
 using System.Collections.Generic;
