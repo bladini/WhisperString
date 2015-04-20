@@ -15,7 +15,7 @@ namespace WhisperPipeline.Test
         {
             //Arrange
             string value = "Hej och hå";
-            string expected = "Jeh  oy  hokoko  oy  åh";
+            string expected = "Jeh oy hokoko oy åh";
 
 
             //Act
