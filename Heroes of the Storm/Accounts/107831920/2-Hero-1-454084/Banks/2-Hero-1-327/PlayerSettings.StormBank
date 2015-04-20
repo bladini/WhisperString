@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Bank version="1">
+    <Section name="DeathTipDisplayCounts">
+        <Key name="Moonwell">
+            <Value int="0"/>
+        </Key>
+        <Key name="MinionsvsTowns">
+            <Value int="0"/>
+        </Key>
+        <Key name="EnemyFountainDeath">
+            <Value int="0"/>
+        </Key>
+        <Key name="FollowMinions">
+            <Value int="0"/>
+        </Key>
+        <Key name="Retreat">
+            <Value int="0"/>
+        </Key>
+        <Key name="UseYourAbilities">
+            <Value int="0"/>
+        </Key>
+        <Key name="Gangups">
+            <Value int="0"/>
+        </Key>
+        <Key name="TrainTalents">
+            <Value int="0"/>
+        </Key>
+        <Key name="Mount">
+            <Value int="0"/>
+        </Key>
+    </Section>
+    <Section name="Settings">
+        <Key name="DeathActionCam">
+            <Value flag="0"/>
+        </Key>
+        <Key name="MinimapCommandsEnabled">
+            <Value flag="1"/>
+        </Key>
+    </Section>
+    <Section name="TotalPlayCount">
+        <Key name="TotalPlayCount">
+            <Value int="1"/>
+        </Key>
+    </Section>
+    <Section name="NewUserTrainingMode">
+        <Key name="NEWUSER_TIP_17">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_6">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_18">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_12">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_11">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_10">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_ONOFF">
+            <Value flag="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_7">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_ReferenceCardTimes">
+            <Value int="1"/>
+        </Key>
+        <Key name="NEWUSER_TIP_4">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TalentTeaching">
+            <Value flag="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_16">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_19">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_1">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_9">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_5">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_3">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_13">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_15">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_14">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_8">
+            <Value int="0"/>
+        </Key>
+        <Key name="NEWUSER_TIP_2">
+            <Value int="0"/>
+        </Key>
+    </Section>
+    <Section name="MapPlayCounts">
+        <Key name="DragonShire">
+            <Value int="1"/>
+        </Key>
+    </Section>
+</Bank>

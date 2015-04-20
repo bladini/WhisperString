@@ -1,0 +1,8 @@
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\bin\Debug\TDDLabTwoPartTwoConsoleApp.exe.config
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\bin\Debug\TDDLabTwoPartTwoConsoleApp.exe
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\bin\Debug\TDDLabTwoPartTwoConsoleApp.pdb
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\bin\Debug\TDDLabTwoPart2CLib.dll
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\bin\Debug\TDDLabTwoPart2CLib.pdb
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\obj\Debug\TDDLabTwoPartTwoConsoleApp.csprojResolveAssemblyReference.cache
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\obj\Debug\TDDLabTwoPartTwoConsoleApp.exe
+C:\Users\sing\Documents\Visual Studio 2013\Projects\TDDLabTwoPart2Test\TDDLabTwoPartTwoConsoleApp\obj\Debug\TDDLabTwoPartTwoConsoleApp.pdb

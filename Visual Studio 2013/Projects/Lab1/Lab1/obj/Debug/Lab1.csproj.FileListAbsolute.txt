@@ -1,0 +1,5 @@
+c:\users\sing\documents\visual studio 2013\Projects\Lab1\Lab1\bin\Debug\Lab1.dll
+c:\users\sing\documents\visual studio 2013\Projects\Lab1\Lab1\bin\Debug\Lab1.pdb
+c:\users\sing\documents\visual studio 2013\Projects\Lab1\Lab1\obj\Debug\Lab1.csprojResolveAssemblyReference.cache
+c:\users\sing\documents\visual studio 2013\Projects\Lab1\Lab1\obj\Debug\Lab1.dll
+c:\users\sing\documents\visual studio 2013\Projects\Lab1\Lab1\obj\Debug\Lab1.pdb
