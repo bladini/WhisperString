@@ -55,6 +55,7 @@
     <Compile Include="CaesarCipherTests.cs" />
     <Compile Include="ReversedWhisperStringTest.cs" />
     <Compile Include="KoKoWhisperStringTest.cs" />
+    <Compile Include="RhymeWhisperTests.cs" />
     <Compile Include="WhisperCensorTest.cs" />
     <Compile Include="WhisperSecondNextTest.cs" />
     <Compile Include="WhisperStringTests.cs" />

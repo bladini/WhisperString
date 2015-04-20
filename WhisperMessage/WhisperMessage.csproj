@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="RhymeWhisper.cs" />
     <Compile Include="WhisperCensor.cs" />
     <Compile Include="ErikWhisperString.cs" />
     <Compile Include="ReverseWhisperMessage.cs" />
