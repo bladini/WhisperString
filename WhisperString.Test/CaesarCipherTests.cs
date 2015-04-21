@@ -1,4 +1,6 @@
-﻿using System;
+﻿/// Author: Gabriel
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using WhisperString;
 
