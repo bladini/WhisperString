@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CaesarCipherWhisperString.cs" />
+    <Compile Include="CharToWordWhisperString.cs" />
     <Compile Include="RhymeWhisperString.cs" />
     <Compile Include="CensorWhisperString.cs" />
     <Compile Include="ReverseWhisperString.cs" />
