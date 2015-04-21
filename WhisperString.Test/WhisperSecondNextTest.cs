@@ -52,24 +52,54 @@ namespace WhisperString.Test
             string actual = _whisperString.ManipulateMessage(value);
             Assert.AreEqual(expected, actual);
         }
-        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        [TestMethod]
         public void SNManipulateMessageEmptyStringThrowArgumentException()
         {
             //Arrange
             string value = "";
+            try
+            {
+                string actual = _whisperString.ManipulateMessage(value);
 
+                Assert.Fail("expected argumentexception");
+            }
+            catch (ArgumentException)
+            {
+                
+                
+            }
+            catch
+            {
+                Assert.Fail("expected argumentexception");
+            }
             //Act
-            string actual = _whisperString.ManipulateMessage(value);
+            
         }
 
-        [TestMethod, ExpectedException(typeof(ArgumentNullException))]
+        [TestMethod]
         public void SNManipulateMessageNullInputThrowArgumentNullException()
         {
             //Arrange
             string value = null;
 
-            //Act
-            string actual = _whisperString.ManipulateMessage(value);
+            try
+            {
+                string actual = _whisperString.ManipulateMessage(value);
+
+
+                Assert.Fail("expected nullexception");
+            
+            }
+            catch (ArgumentNullException)
+            {
+                
+                
+            }
+            catch
+            {
+                Assert.Fail("expected nullexception");
+            }
+            
         }
     }
 }
