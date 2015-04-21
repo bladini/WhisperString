@@ -1,4 +1,5 @@
-﻿using System;
+﻿//Author: Tobias Bladini
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace WhisperString.Test
@@ -38,24 +39,61 @@ namespace WhisperString.Test
 
         }
 
-        [TestMethod, ExpectedException(typeof(ArgumentException))]
+        [TestMethod]
+        //This assembly message does not comply with TeamCity.
+        //Doing a work around
+        //[ExpectedException(typeof(ArgumentException))]
         public void ManipulateMessageEmptyStringThrowArgumentException()
         {
             //Arrange
             string value = "";
 
-            //Act
-            string actual = _whisperString.ManipulateMessage(value);
+            try
+            {
+                //Act
+                string actual = _whisperString.ManipulateMessage(value);
+
+                // If no exception is thrown, then the test fails.
+                Assert.Fail();
+            }
+            catch (ArgumentException)
+            {
+                // We are on!
+            }
+            catch
+            {
+                // If another exception is thrown, then the test fails.
+                Assert.Fail();
+            }
         }
 
-        [TestMethod, ExpectedException(typeof(ArgumentNullException))]
+        [TestMethod]
+        //This assembly message does not comply with TeamCity.
+        //Doing a work around
+        //[ExpectedException(typeof(ArgumentNullException))]
         public void ManipulateMessageNullInputThrowArgumentNullException()
         {
             //Arrange
             string value = null;
 
-            //Act
-            string actual = _whisperString.ManipulateMessage(value);
+            try
+            {
+                //Act
+                string actual = _whisperString.ManipulateMessage(value);
+
+                // If no exception is thrown, then the test fails.
+                Assert.Fail();
+            }
+            catch (ArgumentNullException)
+            {
+                // We are on!
+            }
+            catch
+            {
+                // If another exception is thrown, then the test fails.
+                Assert.Fail();
+            }
+
         }
 
     }
