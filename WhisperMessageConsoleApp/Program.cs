@@ -12,20 +12,25 @@ namespace WhisperStringConsoleApp
     {
         static void Main(string[] args)
         {
-            try
+            bool inProgress = true;
+            while (inProgress)
             {
-                IWhisperString whisperStr = new YoWhisperString();
-                Console.WriteLine("Enter a message: ");
-                var message = Console.ReadLine();
-                var result = whisperStr.ManipulateMessage(message);
-                Console.WriteLine("Entered message: {0} \nManipulated message: {1}", message, result);
-            }
-            catch (Exception ex)
-            {
+                try
+                {
+                    IWhisperString whisperStr = new RhymeWhisperString();
+                    Console.WriteLine("Enter a message: ");
+                    var message = Console.ReadLine();
+                    if (message == "q")
+                        break;
+                    var result = whisperStr.ManipulateMessage(message);
+                    Console.WriteLine("\nEntered message:     {0} \nManipulated message: {1}\n", message, result);
+                }
+                catch (Exception ex)
+                {
 
-                Console.WriteLine(ex.Message);
+                    Console.WriteLine(ex.Message);
+                }
             }
-            Console.ReadLine();
         }
     }
 }
