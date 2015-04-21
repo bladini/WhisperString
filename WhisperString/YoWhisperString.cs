@@ -1,4 +1,10 @@
-﻿using System;
+﻿// Author: Timmi Nikqi
+//
+// Date: 21/04-2015
+//
+// Class: SUW-14
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
