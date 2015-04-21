@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CharToWordWhisperPipeline.cs" />
     <Compile Include="SailorSongWhisperPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />
     <Compile Include="JohnPipeline.cs" />

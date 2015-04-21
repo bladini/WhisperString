@@ -1,4 +1,4 @@
-﻿//Author Lisas Module
+﻿//Author Daniel Module
 
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -8,9 +8,9 @@ using WhisperString.Pipeline;
 namespace WhisperPipeline.Tests
 {
     [TestClass]
-    public class CharToWordWhisperPipelineTests
+    public class ReverseWhisperPipelineTests
     {
-        private IWhisperPipeline _chartowordWhisperString = new ReverseWhisperPipeline();
+        private IWhisperPipeline _chartowordWhisperString = new CharToWordWhisperPipeline();
 
         [TestMethod]
         public void PipelineTest()

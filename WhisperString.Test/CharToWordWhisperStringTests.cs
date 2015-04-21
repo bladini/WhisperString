@@ -1,4 +1,4 @@
-﻿//Author Lisas module
+﻿//Author Daniels module
 
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
