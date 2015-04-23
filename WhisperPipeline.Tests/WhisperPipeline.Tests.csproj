@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="CensorWhisperStringPipelineTests.cs" />
     <Compile Include="CharToWordWhisperPipelineTests.cs" />
+    <Compile Include="RhyminRapWhisperPipelineTests.cs" />
     <Compile Include="SailorSongWhisperPipelineTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
