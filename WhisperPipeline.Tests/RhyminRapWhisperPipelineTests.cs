@@ -18,7 +18,6 @@ namespace WhisperPipeline.Tests
         {
             string value = "Viftar min flagga";
             string[] rhymingWords = { "hagga", "vagga" };
-            //string[] expectedWords = { "Viftar", "yo", "min", "yo", "hagga" };
             string[] actualWords;
 
             actualWords = rhyminRapPipeline.Whisper(value).Split(' ');
