@@ -39,11 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CaesarCipherWhisperPipeline.cs" />
     <Compile Include="CharToWordWhisperPipeline.cs" />
     <Compile Include="NotRandomPipeline.cs" />
     <Compile Include="SailorSongWhisperPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />
-    <Compile Include="JohnPipeline.cs" />
+    <Compile Include="RhyminRapPipeline.cs" />
     <Compile Include="LeePipeline.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseWhisperPipeline.cs" />

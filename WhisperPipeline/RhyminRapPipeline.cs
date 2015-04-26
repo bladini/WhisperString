@@ -8,18 +8,18 @@ using WhisperString.Pipeline;
 
 namespace WhisperPipeline
 {
-    class JohnPipeline : IWhisperPipeline
+    public class RhyminRapPipeline : IWhisperPipeline
     {
         private IWhisperString rhyme = new RhymeWhisperString();
-        private IWhisperString reverse = new ReverseWhisperString();
         private IWhisperString censor = new WhisperCensor();
-        private IWhisperString secondNext = new WhisperSecondNext();
-        private IWhisperString koko = new WhisperStringKoko();
         private IWhisperString yo = new YoWhisperString();
 
         public string Whisper(string message)
         {
-            return rhyme.ManipulateMessage(message);
+            message = rhyme.ManipulateMessage(message);
+            message = censor.ManipulateMessage(message);
+            message = yo.ManipulateMessage(message);
+            return message;
         }
     }
 }
