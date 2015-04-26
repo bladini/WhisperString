@@ -53,6 +53,7 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="CaesarCipherWhisperPipelineTests.cs" />
     <Compile Include="CensorWhisperStringPipelineTests.cs" />
     <Compile Include="CharToWordWhisperPipelineTests.cs" />
     <Compile Include="RhyminRapWhisperPipelineTests.cs" />
