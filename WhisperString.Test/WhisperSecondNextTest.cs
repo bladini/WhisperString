@@ -79,7 +79,7 @@ namespace WhisperString.Test
         [TestMethod]
         public void SNManipulateMessageNullInputThrowArgumentNullException()
         {
-            //Arrange
+            
             string value = null;
 
             try
