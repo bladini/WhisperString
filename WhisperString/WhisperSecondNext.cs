@@ -50,8 +50,41 @@ namespace WhisperString
 
         }
         char nextLeter(char letter, int i) {
-            char nextChar;
-            if (letter == 'ö')
+            //char nextChar;
+            if (i > 0)
+            {
+                switch (letter)
+                {
+                    case 'ö':
+
+                        return nextLeter('a', i - 1);
+
+                    case 'ä':
+                        return nextLeter('ö', i - 1);
+
+                    case 'å':
+                        return nextLeter('ä', i - 1);
+
+                    case 'z':
+                        return nextLeter('å', i - 1);
+
+                    case 'Ö':
+                        return nextLeter('A', i - 1);
+                    case 'Ä':
+                        return nextLeter('Ö', i - 1);
+                    case 'Å':
+
+                        return nextLeter('Ä', i - 1);
+                    case 'Z':
+                        return nextLeter('Å', i - 1);
+                    default:
+                        return nextLeter((char)(((int)letter) + 1), i - 1);
+
+                }
+
+            }
+            return letter;
+            /*if (letter == 'ö')
             {
                 nextChar = 'a';
                 if (i > 1) return nextLeter((char)(((int)nextChar) + 1), i - 1);
@@ -94,7 +127,7 @@ namespace WhisperString
             else if (i > 1) return nextLeter((char)(((int)letter) + 1), i - 1);
             else
                 nextChar = (char)(((int)letter) + 1);
-            return nextChar;
+            return nextChar;*/
         }
     }
 }
