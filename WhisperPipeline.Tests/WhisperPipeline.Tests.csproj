@@ -62,7 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ReverseWhisperPipelineTests.cs" />
     <Compile Include="NotRandomPiplineTest.cs" />
-    <Compile Include="KoKoWhisperPipelineTest.cs" />
+    <Compile Include="CrazyEncryptionPipelineTest.cs" />
     <Compile Include="YoWhisperPipelineTest.cs" />
     <Compile Include="LeePipelineTest.cs" />
   </ItemGroup>
