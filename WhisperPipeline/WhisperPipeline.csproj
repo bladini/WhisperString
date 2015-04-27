@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="CaesarCipherWhisperPipeline.cs" />
     <Compile Include="CharToWordWhisperPipeline.cs" />
+    <Compile Include="KokoWhisperPipeline.cs" />
     <Compile Include="NotRandomPipeline.cs" />
     <Compile Include="SailorSongWhisperPipeline.cs" />
     <Compile Include="IWhisperPipeline.cs" />

@@ -49,7 +49,7 @@
     <Compile Include="WhisperString.cs" />
     <Compile Include="IWhisperString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WhisperStringKoKo.cs" />
+    <Compile Include="KoKoWhisperString.cs" />
     <Compile Include="YoWhisperString.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
