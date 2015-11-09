@@ -16,7 +16,7 @@ namespace WhisperPipeline
         private IWhisperString _yoWhisper = new YoWhisperString();
         private IWhisperString _whisperReverse = new ReverseWhisperString();
         
-        
+        /**/
         public string Whisper(string message)
         {
             message = _whisperKoko.ManipulateMessage(message);
