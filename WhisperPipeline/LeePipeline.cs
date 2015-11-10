@@ -16,7 +16,7 @@ namespace WhisperPipeline
         private IWhisperString _whisperKoko = new WhisperStringKoko();
         private IWhisperString _whisperYo = new YoWhisperString();
 
-        
+        /**/
 
         public string Whisper(string message)
         {
